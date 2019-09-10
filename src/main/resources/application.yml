@@ -3,11 +3,11 @@ server:
 
 spring:
   datasource:
-    username: root
-    password: 123456
-    url: jdbc:mysql://localhost:3306/elum?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
+    username: combat_game_only
+    password: AB1EEACFC9B5
+    url: jdbc:mysql://database.xxle.cf:3306/combat_db?useUnicode=true&characterEncoding=utf-8
     driver-class-name: com.mysql.cj.jdbc.Driver
   devtools:
     restart:
-      enabled: true  #ÉèÖÃ¿ªÆôÈÈ²¿Êğ
+      enabled: true # æˆ‘è¿™è¾¹çœ‹åˆ°çš„å¤‡æ³¨æ˜¯ä¹±ç å†…å®¹ï¼Ÿï¼Ÿï¼Ÿ maybe we should use utf8 encoding.
       additional-paths: src/main/java/**
